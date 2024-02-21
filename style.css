@@ -1,0 +1,236 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+.nav-search button[type="submit"]{
+    background-color: rgb(255 255 255 / 20%);
+    border: 1px solid rgb(255 255 255 / 32%);
+    color: #fff;
+}
+
+.nav-search input.form-control {
+    background-color: rgb(255 255 255 / 20%);
+    border: 1px solid rgb(255 255 255 / 45%);
+    color: #fff;
+}
+
+.nav-search input.form-control::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.bg-grey{
+    background-color: gray;
+}
+
+.bg-lightgrey{
+    background-color: lightgrey;
+}
+
+.bg-gradient-cate{
+    background-image: linear-gradient(rgb(194, 236, 194), rgb(44, 185, 44), rgb(1, 224, 1));
+}
+
+.logo{
+    width: 45px;
+    height: 45px;
+}
+
+.caru{
+    height: 550px;
+    object-fit: cover;
+}
+
+.green-theme{
+    background-color: rgb(44, 185, 44);
+}
+
+.green-txt{
+    color: greenyellow;
+}
+.dropdownmenu ul, .dropdownmenu li{
+    margin: 0;
+    padding: 0;
+}
+.dropdownmenu ul{
+    list-style: none;
+}
+.dropdownmenu li{
+    position: relative;
+    width: auto;
+}
+.dropdownmenu a{
+    padding: 5px 5px 5px 3px;
+    border-bottom: 1px solid rgb(150, 150, 150);
+    display: block;
+    transition: all 0.25s ease;
+}
+.dropdownmenu li:hover a{
+    background-color: grey;
+}
+#submenu{
+    position: absolute;
+    left: -140px;
+    top: 0;
+    opacity: 0;
+    width: 140px;
+    visibility: hidden;
+    z-index: 1;
+}
+li:hover ul#submenu{
+    opacity: 1;
+    visibility: visible;
+}
+#submenu a:hover{
+    background-color: red;
+    color: white;
+}
+
+.modelTitle{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    padding: 8px 8px 8px 8px;
+    margin: 12px 0px 0px 0px;
+}
+
+/* product stuff */
+.cateblock{
+    padding: 1px 1px 1px 1px;
+}
+.product-box{
+    outline: 1px solid lightgray;
+    /* width: 323.5px;
+    height: 577.6px; */
+    transition: all 0.3s ease;
+}
+.image-wrapper{
+    position: relative;
+    align-items: center;
+    width: 323.5px;
+    height: 250px;
+}
+.image-wrapper img{
+    object-fit: contain;
+    margin-left: 35px;
+    transition: all 0.3s ease;
+    z-index: 99;
+}
+.image-wrapper img:hover{
+    transform: scale(1.15);
+    opacity: 0.9;
+}
+.prod-menu{
+    position: absolute;
+    bottom: -325px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+.prod-menu-m{
+  position: absolute;
+  bottom: -200px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+.product-box:hover .prod-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.product-box:not(:hover) .prod-menu{
+    visibility: hidden;
+}
+.product-box:hover .prod-menu-m{
+  opacity: 1;
+  visibility: visible;
+}
+.product-box:not(:hover) .prod-menu-m{
+  visibility: hidden;
+}
+.product-box:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-prod{
+    background-color: white;
+    margin-left: 11px;
+    margin-right: 11px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.item-condition{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 8px;
+}
+.title a{
+    color: rgb(40, 113, 155);
+}
+.title a:hover{
+    color: rgb(0, 162, 255);
+}
+.stock-text{
+    text-align: center;
+    font-weight: bold;
+}
+.price{
+    background-color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    color: red;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+.warranty{
+    color: red;
+}
+
+.image-pre{
+  width: 375px;
+  height: 410px;
+  outline: 1px solid lightgray;
+  background-color: white;
+}
+.image-pre img{
+  width: 375px;
+  height: 410px;
+  object-fit: contain;
+}
+.gold{
+  color: gold;
+}
+.gray{
+  color: gray;
+}
+.rating a:hover{
+  color: gold;
+}
+.ok{
+  display: inline-block;
+  width: 200px;
+}
+.cartt{
+  border: none;
+  border-radius: 5px;
+  height: 37px;
+  font-size: small;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 4px;
+  transition: all 0.1s ease;
+}
+.cartt:hover{
+  text-shadow: 2px 2px 5px black;
+  box-shadow: 0px 0px 10px lightblue;
+}

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel="stylesheet" href="assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fontawesome-pro-6_4_2-web/css/all.min.css">
+    <title>SVR Gear</title>
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient py-3">
+    <div class="container"><a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png" alt=""><span class="lead ms-2">VSR Gear</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#"><i class="fa-regular fa-house me-1"></i>Home</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="#footer"><i class="far fa-user me-1"></i>About</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fa-regular fa-grid-2 me-1"></i>Features</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fa-regular fa-microphone me-1"></i>Contact</a>
+            </li>
+        </ul>
+        <form class="d-flex nav-search">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <button class="btn" type="submit"><i class="fas fa-search text-white"></i>
+                </button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="navbar green-theme" style="padding: 4px 4px;">
+  <div class="container d-none">
+  </div>
+</div>
+<div class="container">    
+    <div class="page-content mt-2">
+        <div class="row ms-0"> 
+            <div class="col-lg-3 cate px-0 bg-lightgrey"><!-- Category section -->
+                <div class="bg-gradient-cate">
+                    <h4 class="text-white p-1 mb-0"><i class="fa-solid fa-bars mx-1"></i> CATEGORIES</h4>
+                </div>
+                <nav class="dropdownmenu">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-laptop mx-1"></i>Laptop</a>
+                        <ul id="submenu">
+                            <li><a href="index.html#model_dell">Dell</a></li>
+                            <li><a href="index.html#model_msi">MSI</a></li>
+                            <li><a href="index.html#model_asus">Asus</a></li>
+                            <li><a href="">Acer</a></li>
+                            <li><a href="">Alienware</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="desktop.html"><i class="fa-solid fa-computer mx-1"></i>Desktop</a>
+                        <ul id="submenu">
+                          <li><a href="desktop.html#model_clonepc">Clone PC</a></li>
+                          <li><a href="">All in On PC</a></li>
+                          <li><a href="">Brand Desktop</a></li>
+                          <li><a href="">Used Desktop</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="text-success"><i class="fa-solid fa-desktop mx-1"></i>Monitor</a>
+                        <ul id="submenu">
+                            <li><a href="#model_office">Office Monitor</a></li>
+                            <li><a href="#model_gaming">Gaming Monitor</a></li>
+                            <li><a href="">Professional Monitor</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="components.html"><i class="fa-solid fa-microchip mx-1"></i>PC Components</a>
+                        <ul id="submenu">
+                            <li><a href="">Motherboard</a></li>
+                            <li><a href="components.html#model_cpu">CPU</a></li>
+                            <li><a href="">RAM</a></li>
+                            <li><a href="">Graphics Card</a></li>
+                            <li><a href="">Cooler</a></li>
+                            <li><a href="">Power Supply</a></li>
+                            <li><a href="">Storage</a></li>
+                            <li><a href="">PC Case</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="accessories.html"><i class="fa-solid fa-computer-mouse mx-1"></i> Accessories</a>
+                        <ul id="submenu">
+                            <li><a href="accessories.html#model_mouse">Mouse</a></li>
+                            <li><a href="accessories.html#model_keyboard">Keyboard</a></li>
+                            <li><a href="">Mouse Pad</a></li>
+                            <li><a href="">Cable</a></li>
+                            <li><a href="">Webcam</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=""><i class="fa-solid fa-volume mx-1"></i> Audio Device</a>
+                        <ul id="submenu">
+                            <li><a href="">Headset</a></li>
+                            <li><a href="">Earphone</a></li>
+                            <li><a href="">Microphone</a></li>
+                            <li><a href="">Speaker</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </nav>    
+            </div><!-- end category -->
+            <div class="col"><!--start carousel-->
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <!-- <ol class="carousel-indicators"> not working as intended
+                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true"></li>
+                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class=""></li>
+                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class=""></li>
+                    </ol> -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/gaming_pc1.jpg" class="d-block w-100 caru" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Gaming PC</h5>
+                                <p>The power is yours to play</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/pc2.png" class="d-block w-100 caru" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="green-txt">Nvidia</h5>
+                                <p class="text-warning">The way it's meant to be played</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/pcpic3.webp" class="d-block w-100 caru" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Razer Gaming Laptop</h5>
+                                <p>High quality gaming laptop</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div><!-- end carousel --> 
+        </div> <!-- end row 1 -->
+        <h5 id="model_office" class="modelTitle">Office Monitor</h5>
+        <div class="cateblock">
+          <div class="row m-0">
+            <div class="col-3 p-0 bg-white">
+              <div id="p001" class="product-box">
+                <div class="image-wrapper mb-3">
+                  <a href="#"><img src="https://cdn.salesloaderkh.com/250x250/product-variation/92/62df5126b1874-OlX-3i1Z_Q.jpg" alt=""></a>
+                  <div class="item-condition">
+                    <span class="badge bg-danger">NEW</span>
+                  </div>
+                  <div class="prod-menu-m w-100">
+                    <span class="tt" data-bs-placement="top" title="Add to cart">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="View product">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-eye"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="Add to wishlish">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-heart"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="Compare product">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-code-compare"></i></a>
+                    </span>
+                  </div>
+                </div>
+                <div class="content-wrapper pb-3 px-3">
+                  <p class="title">
+                    <a href="#">
+                      Dell 22 Monitor 2022<br>
+                      SE2222HV 22-Inch
+                    </a>
+                  </p>
+                  <div class="stock-text text-danger">In Stock !</div>
+                  <div class="d-flex my-2">
+                    <div class="price">
+                      $130.00
+                    </div>
+                  </div>
+                  <div class="description mb-0">
+                    • Warranty: <span class="warranty">1 Year Warranty</span><br>
+                  </div>
+                </div>
+              </div>
+            </div><!--end prod-->
+            <div class="col-3 p-0 bg-white">
+              <div id="p002" class="product-box">
+                <div class="image-wrapper mb-3">
+                  <a href="#"><img src="https://cdn.salesloaderkh.com/250x250/product-variation/92/62df5126b1874-OlX-3i1Z_Q.jpg" alt=""></a>
+                  <div class="item-condition">
+                    <span class="badge bg-danger">NEW</span>
+                  </div>
+                  <div class="prod-menu-m w-100">
+                    <span class="tt" data-bs-placement="top" title="Add to cart">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="View product">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-eye"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="Add to wishlish">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-heart"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="Compare product">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-code-compare"></i></a>
+                    </span>
+                  </div>
+                </div>
+                <div class="content-wrapper pb-3 px-3">
+                  <p class="title">
+                    <a href="#">
+                      Dell 22 Monitor 2022<br>
+                      SE2422HR 24-Inch
+                    </a>
+                  </p>
+                  <div class="stock-text text-danger">In Stock !</div>
+                  <div class="d-flex my-2">
+                    <div class="price">
+                      $165.00
+                    </div>
+                  </div>
+                  <div class="description mb-0">
+                    • Warranty: <span class="warranty">1 Year Warranty</span><br>
+                  </div>
+                </div>
+              </div>
+            </div><!--end prod-->
+            <div class="col-3 p-0 bg-white">
+              <div id="p003" class="product-box">
+                <div class="image-wrapper mb-3">
+                  <a href="#"><img src="https://cdn.salesloaderkh.com/250x250/product-variation/127/50492281-6252-4394-9c62-47a713032c47df73597f8a8145a4b56f7fa7a0b2ea5c-bpfktfnxcr-JIDjFY0btF.jpeg" alt=""></a>
+                  <div class="item-condition">
+                    <span class="badge bg-danger">NEW</span>
+                  </div>
+                  <div class="prod-menu-m w-100">
+                    <span class="tt" data-bs-placement="top" title="Add to cart">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="View product">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-eye"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="Add to wishlish">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-heart"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="Compare product">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-code-compare"></i></a>
+                    </span>
+                  </div>
+                </div>
+                <div class="content-wrapper pb-3 px-3">
+                  <p class="title">
+                    <a href="#">
+                      Dell 24 Monitor 2021<br>
+                      S2421HN 24-Inch
+                    </a>
+                  </p>
+                  <div class="stock-text text-danger">In Stock !</div>
+                  <div class="d-flex my-2">
+                    <div class="price">
+                      $159.00
+                    </div>
+                  </div>
+                  <div class="description mb-0">
+                    • Warranty: <span class="warranty">1 Year Warranty</span><br>
+                  </div>
+                </div>
+              </div>
+            </div><!--end prod-->
+            <div class="col-3 p-0 bg-white">
+              <div id="p004" class="product-box">
+                <div class="image-wrapper mb-3">
+                  <a href="#"><img src="https://cdn.salesloaderkh.com/250x250/product-variation/127/50492281-6252-4394-9c62-47a713032c47df73597f8a8145a4b56f7fa7a0b2ea5c-bpfktfnxcr-JIDjFY0btF.jpeg" alt=""></a>
+                  <div class="item-condition">
+                    <span class="badge bg-danger">NEW</span>
+                  </div>
+                  <div class="prod-menu-m w-100">
+                    <span class="tt" data-bs-placement="top" title="Add to cart">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="View product">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-eye"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="Add to wishlish">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-heart"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="Compare product">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-code-compare"></i></a>
+                    </span>
+                  </div>
+                </div>
+                <div class="content-wrapper pb-3 px-3">
+                  <p class="title">
+                    <a href="#">
+                      Dell 27 Monitor 2021<br>
+                      S2721HN 27-Inch
+                    </a>
+                  </p>
+                  <div class="stock-text text-danger">In Stock !</div>
+                  <div class="d-flex my-2">
+                    <div class="price">
+                      $199.00
+                    </div>
+                  </div>
+                  <div class="description mb-0">
+                    • Warranty: <span class="warranty">1 Year Warranty</span><br>
+                  </div>
+                </div>
+              </div>
+            </div><!--end prod-->
+          </div>
+        </div>
+        <h5 id="model_gaming" class="modelTitle">Gaming Monitor</h5>
+        <div class="cateblock">
+          <div class="row m-0">
+            <div class="col-3 p-0 bg-white">
+              <div id="p005" class="product-box">
+                <div class="image-wrapper mb-3">
+                  <a href="#"><img src="https://cdn.salesloaderkh.com/250x250/product-variation/1061/gigabyte-m27f-500x500-vA1k22eonx.jpg" alt=""></a>
+                  <div class="item-condition">
+                    <span class="badge bg-danger">NEW</span>
+                  </div>
+                  <div class="prod-menu-m w-100">
+                    <span class="tt" data-bs-placement="top" title="Add to cart">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="View product">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-eye"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="Add to wishlish">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-heart"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="Compare product">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-code-compare"></i></a>
+                    </span>
+                  </div>
+                </div>
+                <div class="content-wrapper pb-3 px-3">
+                  <p class="title">
+                    <a href="#">
+                      GIGABYTE<br>
+                      G24F 165Hz Monitor
+                    </a>
+                  </p>
+                  <div class="stock-text text-danger">In Stock !</div>
+                  <div class="d-flex my-2">
+                    <div class="price">
+                      $159.00
+                    </div>
+                  </div>
+                  <div class="description mb-0">
+                    • Warranty: <span class="warranty">1 Year Warranty</span><br>
+                  </div>
+                </div>
+              </div>
+            </div><!--end prod-->
+            <div class="col-3 p-0 bg-white">
+              <div id="p006" class="product-box">
+                <div class="image-wrapper mb-3">
+                  <a href="#"><img src="https://cdn.salesloaderkh.com/250x250/product-variation/1104/gigabyte-g27fc-monitor-4-1000x1000-1-jlMIOHmJFr.jpg" alt=""></a>
+                  <div class="item-condition">
+                    <span class="badge bg-danger">NEW</span>
+                  </div>
+                  <div class="prod-menu-m w-100">
+                    <span class="tt" data-bs-placement="top" title="Add to cart">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="View product">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-eye"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="Add to wishlish">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-heart"></i></a>
+                    </span>
+                    <span class="tt" data-bs-placement="top" title="Compare product">
+                        <a href="#" class="btn btn-outline-dark btn-lg btn-prod"><i class="fa-solid fa-code-compare"></i></a>
+                    </span>
+                  </div>
+                </div>
+                <div class="content-wrapper pb-3 px-3">
+                  <p class="title">
+                    <a href="#">
+                      GIGABYTE<br>
+                      G27FC 165Hz Monitor
+                    </a>
+                  </p>
+                  <div class="stock-text text-danger">In Stock !</div>
+                  <div class="d-flex my-2">
+                    <div class="price">
+                      $229.00
+                    </div>
+                  </div>
+                  <div class="description mb-0">
+                    • Warranty: <span class="warranty">1 Year Warranty</span><br>
+                  </div>
+                </div>
+              </div>
+            </div><!--end prod-->
+          </div>
+        </div>
+
+    </div><!-- end page content -->
+</div><!-- end container -->
+<footer class="bg-dark text-white pt-5 pb-4 mt-4"><!--footer-->
+  <div class="container text-left text-md-left">
+    <div class="row text-left text-md-left">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">VSR Electronics</h5>
+        <img src="images/logo.png" style="width: 80px; height: 80px;">
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+        <p>
+          <a href="#" class="text-white" style="text-decoration: none;">Laptop</a>
+        </p>
+        <p>
+          <a href="#" class="text-white" style="text-decoration: none;">Desktop</a>
+        </p>
+        <p>
+          <a href="#" class="text-white" style="text-decoration: none;">Monitor</a>
+        </p>
+        <p>
+          <a href="#" class="text-white" style="text-decoration: none;">PC Components</a>
+        </p>
+        <p>
+          <a href="#" class="text-white" style="text-decoration: none;">Accessories</a>
+        </p>
+        <p>
+          <a href="#" class="text-white" style="text-decoration: none;">Audio Devices</a>
+        </p>
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+        <p>
+          <i class="fas fa-home mr-3"></i> Khmer Pub St, Siem Reap, Cambodia
+        </p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> vsr.electronics@gmail.com
+        </p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> 012888168
+        </p>
+      </div>
+  
+    </div>
+    <hr class="mb-4">
+    <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p> Copyright &copy2024 All rights reserved by:
+              <a href="#" style="text-decoration:none;">
+                <strong class="text-warning">VSR Electronics</strong>
+              </a>
+            </p>
+          </div>
+        
+          <div class="col-md-5 col-lg-4">
+            <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i class="fab fa-telegram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+    </div>
+
+  </div>
+</footer>
+  <script src="assets/popper.min.js.js"></script>
+  <script src="assets/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+  <script src="assets/fontawesome-pro-6_4_2-web/js/all.min.js"></script>
+  <script>
+      const tooltips = document.querySelectorAll('.tt')
+      tooltips.forEach(t =>{
+          new bootstrap.Tooltip(t)
+      })
+  </script>
+</html>
